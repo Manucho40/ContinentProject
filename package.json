@@ -1,0 +1,17 @@
+{
+  "name": "test_tchoumgroup",
+  "version": "1.0.0",
+  "description": "Test project - TchoumGroup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "npm start --prefix backend",
+    "front": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "author": "KaeDev",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
