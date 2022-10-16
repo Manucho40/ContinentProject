@@ -1,0 +1,18 @@
+ <h1 class='center'>Pokémons</h1>
+ <div class='container'>
+ <div class="row">
+ <div *ngFor='let continent of continentList' class="col s6 m4">
+   <div class="card horizontal">
+     <!-- <div class="card-image">
+       <img [src]="pokemon.picture">
+     </div> -->
+     <div class="card-stacked">
+       <div class="card-content">
+         <p>{{ continent.name }}</p>
+         <p><small>{{ continent.code }}</small></p>
+       </div>
+     </div>
+   </div>
+ </div>
+ </div>
+ </div>
