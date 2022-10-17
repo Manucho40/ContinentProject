@@ -10,6 +10,7 @@ import { CONTINENT } from './mock-continent-list';
 })
 export class AppComponent implements OnInit{
   continentList: Continent[];
+  continentSearch: Continent[];
   continentSelected: Continent | undefined ;
   errorMessage: string;
   loading: boolean;
@@ -17,7 +18,8 @@ export class AppComponent implements OnInit{
   constructor(private continentService: ContinentService){}
 
   ngOnInit(){
-    console.table(this.getContinents());
+    this.getContinents();
+
   }
 
   public getContinents() {
@@ -38,7 +40,19 @@ export class AppComponent implements OnInit{
           console.error('Request completed')      
           this.loading = false; 
         })
-  } 
+  }
+
+  public valuEnter(value: string){
+    this.continentService.searchContinent(value.toLocaleUpperCase())
+          .subscribe(
+            (response) =>{
+              this.continentSearch = response
+              return this.continentSearch[0]
+            }
+          )
+  }
+
+  
   
   
   

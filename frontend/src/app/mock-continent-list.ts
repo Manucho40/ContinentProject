@@ -1,6 +1,6 @@
 import { Continent } from "./continent";
 
-export const CONTINENT: Continent[] = [
+export const CONTINENT = [
     {
         id: 1,
         name: "Afrique",

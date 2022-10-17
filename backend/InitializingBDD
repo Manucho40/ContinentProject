@@ -1,0 +1,144 @@
+{
+"continetns": [
+{
+    "language": "ENGLISH",
+    "name": "AFRICA",
+    "code": "AF",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_the_African_Union.svg/1200px-Flag_of_the_African_Union.svg.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "AFRIQUE",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_the_African_Union.svg/1200px-Flag_of_the_African_Union.svg.png",
+          "code": "AF"      
+       },
+       {
+          "language": "SPANISH",
+          "name": "ÁFRICA",
+          "code": "AF",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_the_African_Union.svg/1200px-Flag_of_the_African_Union.svg.png"
+        }
+   ]
+},
+{
+    "language": "ENGLISH",
+    "name": "NORTH AMERICA",
+    "code": "NA",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_the_North_American_Union.svg/640px-Flag_of_the_North_American_Union.svg.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "AMERIQUE DU NORD",
+          "code": "AN",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_the_North_American_Union.svg/640px-Flag_of_the_North_American_Union.svg.png"      
+       },
+       {
+          "language": "SPANISH",
+          "name": "AMÉRICA DEL NORTE",
+          "code": "AN",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_the_North_American_Union.svg/640px-Flag_of_the_North_American_Union.svg.png"
+        }
+   ]
+},
+{
+    "language": "ENGLISH",
+    "name": "SOUTH AMERICA",
+    "code": "SA",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_UNASUR.svg/1200px-Flag_of_UNASUR.svg.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "AMERIQUE DU SUD",
+          "code": "AS",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_UNASUR.svg/1200px-Flag_of_UNASUR.svg.png"      
+       },
+       {
+          "language": "SPANISH",
+          "name": "SUDAMERICA",
+          "code": "AS",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_UNASUR.svg/1200px-Flag_of_UNASUR.svg.png"
+        }
+   ]
+},
+{
+    "language": "ENGLISH",
+    "name": "OCEANIA",
+    "code": "OC",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_the_Pacific_Community.svg/langfr-280px-Flag_of_the_Pacific_Community.svg.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "OCEANIE",
+          "code": "OC",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_the_Pacific_Community.svg/langfr-280px-Flag_of_the_Pacific_Community.svg.png"      
+       },
+       {
+          "language": "SPANISH",
+          "name": "OCEANÍA",
+          "code": "OC",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_the_Pacific_Community.svg/langfr-280px-Flag_of_the_Pacific_Community.svg.png"
+        }
+   ]
+},
+{
+    "language": "English",
+    "name": "ANTARCTICA",
+    "code": "AF",
+    "flag": "data:image/png;base64,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",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "ANTARTIQUE",
+          "code": "AF",
+          "flag": "data:image/png;base64,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"      
+       },
+       {
+          "language": "SPANISH",
+          "name": "ANTÁRTICO",
+          "code": "AN",
+          "flag": "data:image/png;base64,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"
+        }
+   ]
+},
+{
+    "language": "ENGLISH",
+    "name": "ASIA",
+    "code": "AS",
+    "flag": "https://www.drapeauxdespays.fr/data/org/w580/asean.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "ASIE",
+          "code": "AS",
+          "flag": "https://www.drapeauxdespays.fr/data/org/w580/asean.png"
+         },
+       {
+          "language": "SPANISH",
+          "name": "ASIA",
+          "code": "AS",
+          "flag": "https://www.drapeauxdespays.fr/data/org/w580/asean.png"
+        }
+   ]
+},
+{
+    "language": "ENGLISH",
+    "name": "EUROPE",
+    "code": "EU",
+    "flag": "https://www.gavroche-thailande.com/wp-content/uploads/2021/09/europe-indo-pacific.png",
+    "translation":[
+       {
+          "language": "FRENCH",
+          "name": "EUROPE",
+          "code": "EU",
+          "flag": "https://www.gavroche-thailande.com/wp-content/uploads/2021/09/europe-indo-pacific.png"
+         },
+       {
+          "language": "SPANISH",
+          "name": "EUROPA",
+          "code": "EU",
+          "flag": "https://www.gavroche-thailande.com/wp-content/uploads/2021/09/europe-indo-pacific.png"
+        }
+   ]
+}
+]
+}

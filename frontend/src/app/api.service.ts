@@ -16,7 +16,7 @@ export class ContinentService{
         return this.http.get<Continent[]>("http://localhost:3000/continents");
       }
 
-    searchContinent(name: string): Observable<Continent>{
-        return this.http.get<Continent>(`http://localhost:3000/continents?name=${name}`);
+    searchContinent(name: string): Observable<Continent[]>{
+        return this.http.get<Continent[]>(`http://localhost:3000/continents?name=${name}`);
     }
 }

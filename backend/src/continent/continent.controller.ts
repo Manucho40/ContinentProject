@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post, Query, Param } from '@nestjs/common';
 import { ContinentService } from './continent.service';
-import { CreateContinentDto } from './dto/Create-continent.dto';
+import { continentWithLangDto, CreateContinentDto } from './dto/Create-continent.dto';
 import { Continent } from './interfaces/continent.interfaces';
 
 /**
@@ -28,6 +28,16 @@ export class ContinentController {
     findContinent(@Param("id") id:number){
         return this.continentServices.findOne(id);
     }
+
+    // @Get()
+    // getDataLang(@Query() lang: continentWithLangDto){
+    //     // if(lang){
+    //     //     console.log(lang)
+    //     // }else{
+    //     //     console.log(lang)
+    //     // }
+    //     console.log("langue")
+    // }
 
     @Post()
    async createContinent(@Body() newContinent: CreateContinentDto){
