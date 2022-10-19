@@ -6,16 +6,14 @@ export interface Continent {
     code: string;
     flag: string;
     translation:
-    [
-       {
-          language: {type: String},
+    {
+       FREANCH:{
           name: {type: String},
           code: {type: String},      
        },
-       {
-            language: {type: String},
+       FRENCH:{
             name: {type: String},
             code: {type: String},      
         }
-   ]
+   }
 }

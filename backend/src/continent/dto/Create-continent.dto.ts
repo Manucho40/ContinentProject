@@ -6,18 +6,16 @@ export const ContinentSchema = new mongoose.Schema({
     code: {type: String, required: true},
     flag:  {type: String, required: true},
     translation:
-    [
-       {
-          language: {type: String, required: true},
+    {
+      FRENCH:{
           name: {type: String, required: true},
           code: {type: String, required: true},      
        },
-       {
-          language: {type: String, required: true},
+      SPANISH:{
           name: {type: String, required: true},
           code: {type: String, required: true},
         }
-   ]
+   }
 
 });
 
@@ -30,22 +28,14 @@ export class CreateContinentDto {
     readonly name: string;
     readonly code: string;
     readonly flag: string;
-    readonly translation:[
-       {
-          language: {type: String},
-          name: {type: String},
-          code: {type: String},      
-       },
-       {
-            language: {type: String},
+    readonly translation:{
+      FRENCH:{
+         name: {type: String, required: true},
+         code: {type: String, required: true},      
+      },
+      SPANISH:{
             name: {type: String},
             code: {type: String},      
         }
-    ]
-};
-export class continentWithLangDto {
-    readonly id: number;
-    readonly language: string
-    readonly name: string;
-    readonly code: string;
+      }
 };

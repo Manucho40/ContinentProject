@@ -1,0 +1,50 @@
+
+<div class='container mt-5 mb-3'>
+  <div class="row">
+    <div class="col md-12">
+      <h1 class="text-center">CONTINENTS APP</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-group mb-3">
+      <input class="form-control" type="text" #input (keyup)="valuEnter(input.value)" placeholder="Recherchez un continent...">
+    </div>  
+  </div>
+  <div *ngIf="!continentSearch" class="row row-cols-1 row-cols-md-3 g-4">
+      <div *ngFor="let continent of continentList" class="col ">
+        <div class="card" style="width: 400px; height: 180px;" >
+          <div class="row no-gutters">
+              <div class="col-sm-5">
+                  <img class="card-img" src={{continent.flag}} alt="Suresh Dasari Card">
+              </div>
+              <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">{{continent.name}} </h5>
+                    <p class="card-text">{{continent.code}}</p>        
+                  </div>
+              </div>
+          </div>
+        </div>
+      
+      </div>
+  </div>
+  <div *ngIf="continentSearch" class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let selectedContinent of continentSearch" class="col">
+      <div class="card" style="width: 400px; height: 180px;" >
+        <div class="row no-gutters">
+            <div class="col-sm-5">
+                <img class="card-img" src={{selectedContinent.flag}} alt="Suresh Dasari Card">
+            </div>
+            <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title">{{selectedContinent.name}} </h5>
+                  <p class="card-text">{{selectedContinent.code}}</p>        
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ </div>

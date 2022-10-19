@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,200&family=Rubik+Iso&display=swap');
+body{
+    background-image: url("./assets/img/world-map-1042847.png");
+    /* background-position:center;
+    background-size: cover; */
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+}

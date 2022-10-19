@@ -12,6 +12,7 @@
   "author": "KaeDev",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.4.0"
+    "concurrently": "^7.4.0",
+    "dotenv": "^16.0.3"
   }
 }
