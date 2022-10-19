@@ -1,0 +1,130 @@
+Après avoir créer votre BDD MongoDB, executez le script suivant dans mongosh.
+
+db.continents.insertMany([
+{
+    "language": "ENGLISH",
+    "name": "AFRICA",
+    "code": "AF",
+    "flag": "https://i.ibb.co/JsHxH6h/africa.png",
+    "translation":{
+         "FRENCH": {
+            "name": "AFRIQUE",
+            "code": "AF",      
+            "flag": "https://i.ibb.co/JsHxH6h/africa.png"
+         },
+         "SPANISH":{
+            "name": "ÁFRICA",
+            "code": "AF",
+            "flag": "https://i.ibb.co/JsHxH6h/africa.png"
+         }
+      }
+},
+{
+    "language": "ENGLISH",
+    "name": "NORTH AMERICA",
+    "code": "NA",
+    "flag": "https://i.ibb.co/qB19Hjc/north-america.png",
+    "translation":{
+      "FRENCH": {
+          "name": "AMERIQUE DU NORD",
+          "code": "NA",
+          "flag": "https://i.ibb.co/qB19Hjc/north-america.png"
+       },
+       "SPANISH":{
+          "name": "AMÉRICA DEL NORTE",
+          "code": "NA",
+          "flag": "https://i.ibb.co/qB19Hjc/north-america.png"       
+       }
+      }
+},
+{
+    "language": "ENGLISH",
+    "name": "SOUTH AMERICA",
+    "code": "SA",
+    "flag": "https://i.ibb.co/gT6rdnC/south-america.png",
+    "translation":{
+      "FRENCH":{
+          "name": "AMERIQUE DU SUD",
+          "code": "AS",
+          "flag": "https://i.ibb.co/gT6rdnC/south-america.png"
+       },
+       "SPANISH":{
+          "name": "SUDAMERICA",
+          "code": "SA",
+          "flag": "https://i.ibb.co/gT6rdnC/south-america.png"
+        }
+      }
+},
+{
+    "language": "ENGLISH",
+    "name": "OCEANIA",
+    "code": "OC",
+    "flag": "https://i.ibb.co/bKvqS3W/austria.png",
+    "translation":{
+      "FRENCH":{
+          "name": "OCEANIE",
+          "code": "OC",
+          "flag": "https://i.ibb.co/bKvqS3W/austria.png"
+       },
+       "SPANISH":{
+          "name": "OCEANÍA",
+          "code": "OC",
+          "flag": "https://i.ibb.co/bKvqS3W/austria.png"
+        }
+      }
+},
+{
+    "language": "English",
+    "name": "ANTARCTICA",
+    "code": "AN",
+    "flag": "https://i.ibb.co/dL6WRPQ/antartica.png",
+    "translation":{
+      "FRENCH": {
+          "name": "ANTARTIQUE",
+          "code": "AN",
+          "flag": "https://i.ibb.co/dL6WRPQ/antartica.png"
+       },
+       "SPANISH": {
+          "name": "ANTÁRTICO",
+          "code": "AN",
+          "flag": "https://i.ibb.co/dL6WRPQ/antartica.png"
+        }
+      }
+},
+{
+    "language": "ENGLISH",
+    "name": "ASIA",
+    "code": "AS",
+    "flag": "https://i.ibb.co/LZzWWqF/asia.jpg",
+    "translation":{
+      "FRENCH":{
+          "name": "ASIE",
+          "code": "AS",
+          "flag": "https://i.ibb.co/LZzWWqF/asia.jpg"
+         },
+      "SPANISH":{
+          "name": "ASIA",
+          "code": "AS",
+          "flag": "https://i.ibb.co/LZzWWqF/asia.jpg"
+        }
+      }
+},
+{
+    "language": "ENGLISH",
+    "name": "EUROPE",
+    "code": "EU",
+    "flag": "https://i.ibb.co/jMc7Kr5/europe.png",
+    "translation": {
+      "FRENCH": {
+          "name": "EUROPE",
+          "code": "EU",
+          "flag": "https://i.ibb.co/jMc7Kr5/europe.png"
+         },
+         "SPANISH": {
+          "name": "EUROPA",
+          "code": "EU",
+          "flag": "https://i.ibb.co/jMc7Kr5/europe.png"
+        }
+      }
+}
+])
